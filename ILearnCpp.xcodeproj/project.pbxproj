@@ -8,10 +8,56 @@
 
 /* Begin PBXBuildFile section */
 		D32B2B911F8577AC0074AB54 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D32B2B901F8577AC0074AB54 /* main.cpp */; };
+		D32B2B9B1F857A4E0074AB54 /* Chapter1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D32B2B991F857A4E0074AB54 /* Chapter1.cpp */; };
+		D32B2BA41F86258D0074AB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D32B2BA31F86258D0074AB54 /* main.m */; };
+		D32B2BAA1F862DEB0074AB54 /* TestDose.m in Sources */ = {isa = PBXBuildFile; fileRef = D32B2BA91F862DEB0074AB54 /* TestDose.m */; };
+		D34924611F893C9300D24D73 /* Symantecx.m in Sources */ = {isa = PBXBuildFile; fileRef = D34924601F893C9300D24D73 /* Symantecx.m */; };
+		D34924691F8A5EFF00D24D73 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34924681F8A5EFF00D24D73 /* main.swift */; };
+		D349246E1F8A5F1E00D24D73 /* AlgorithmsAnalysis.swift in Sources */ = {isa = PBXBuildFile; fileRef = D349246D1F8A5F1E00D24D73 /* AlgorithmsAnalysis.swift */; };
+		D34924771F8FB4D300D24D73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D34924761F8FB4D300D24D73 /* main.m */; };
+		D349247D1F952A1B00D24D73 /* DataStructures.m in Sources */ = {isa = PBXBuildFile; fileRef = D349247C1F952A1B00D24D73 /* DataStructures.m */; };
+		D34924811F9AFDF400D24D73 /* DataStructuresActual.mm in Sources */ = {isa = PBXBuildFile; fileRef = D34924801F9AFDF400D24D73 /* DataStructuresActual.mm */; };
+		D3B9D34C1F880B1A00625466 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B9D34B1F880B1A00625466 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		D32B2B8B1F8577AC0074AB54 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		D32B2B9F1F86258D0074AB54 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		D34924641F8A5EFF00D24D73 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		D34924721F8FB4D300D24D73 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		D3B9D3471F880B1900625466 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -25,10 +71,61 @@
 /* Begin PBXFileReference section */
 		D32B2B8D1F8577AC0074AB54 /* ILearnCpp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ILearnCpp; sourceTree = BUILT_PRODUCTS_DIR; };
 		D32B2B901F8577AC0074AB54 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		D32B2B971F8578B40074AB54 /* C Primer Plus, 6th Edition.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "C Primer Plus, 6th Edition.pdf"; sourceTree = "<group>"; };
+		D32B2B981F8578B40074AB54 /* C++_Primer_Plus_(5th_Edition).pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "C++_Primer_Plus_(5th_Edition).pdf"; sourceTree = "<group>"; };
+		D32B2B991F857A4E0074AB54 /* Chapter1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Chapter1.cpp; sourceTree = "<group>"; };
+		D32B2B9A1F857A4E0074AB54 /* Chapter1.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Chapter1.hpp; sourceTree = "<group>"; };
+		D32B2BA11F86258D0074AB54 /* iLearnObjC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = iLearnObjC; sourceTree = BUILT_PRODUCTS_DIR; };
+		D32B2BA31F86258D0074AB54 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D32B2BA81F862DEB0074AB54 /* TestDose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestDose.h; sourceTree = "<group>"; };
+		D32B2BA91F862DEB0074AB54 /* TestDose.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestDose.m; sourceTree = "<group>"; };
+		D349245F1F893C9300D24D73 /* Symantecx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Symantecx.h; sourceTree = "<group>"; };
+		D34924601F893C9300D24D73 /* Symantecx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Symantecx.m; sourceTree = "<group>"; };
+		D34924661F8A5EFF00D24D73 /* ComboOfAllInSwift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ComboOfAllInSwift; sourceTree = BUILT_PRODUCTS_DIR; };
+		D34924681F8A5EFF00D24D73 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		D349246D1F8A5F1E00D24D73 /* AlgorithmsAnalysis.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlgorithmsAnalysis.swift; sourceTree = "<group>"; };
+		D349246F1F8A61D500D24D73 /* AlgoritmsDesignTestCases.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AlgoritmsDesignTestCases.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D34924741F8FB4D300D24D73 /* CrakingCodeFromhackerrank */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CrakingCodeFromhackerrank; sourceTree = BUILT_PRODUCTS_DIR; };
+		D34924761F8FB4D300D24D73 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D349247B1F952A1B00D24D73 /* DataStructures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataStructures.h; sourceTree = "<group>"; };
+		D349247C1F952A1B00D24D73 /* DataStructures.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataStructures.m; sourceTree = "<group>"; };
+		D349247F1F9AFDF400D24D73 /* DataStructuresActual.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataStructuresActual.h; sourceTree = "<group>"; };
+		D34924801F9AFDF400D24D73 /* DataStructuresActual.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DataStructuresActual.mm; sourceTree = "<group>"; };
+		D3B9D3491F880B1900625466 /* AlgorithmDesignManual */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AlgorithmDesignManual; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3B9D34B1F880B1A00625466 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D3B9D3501F880B3500625466 /* The Algorithm Design Manual by Steven S. Skiena.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "The Algorithm Design Manual by Steven S. Skiena.pdf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		D32B2B8A1F8577AC0074AB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D32B2B9E1F86258D0074AB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D34924631F8A5EFF00D24D73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D34924711F8FB4D300D24D73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3B9D3461F880B1900625466 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,7 +138,13 @@
 		D32B2B841F8577AC0074AB54 = {
 			isa = PBXGroup;
 			children = (
+				D32B2B971F8578B40074AB54 /* C Primer Plus, 6th Edition.pdf */,
+				D32B2B981F8578B40074AB54 /* C++_Primer_Plus_(5th_Edition).pdf */,
 				D32B2B8F1F8577AC0074AB54 /* ILearnCpp */,
+				D32B2BA21F86258D0074AB54 /* iLearnObjC */,
+				D3B9D34A1F880B1A00625466 /* AlgorithmDesignManual */,
+				D34924671F8A5EFF00D24D73 /* ComboOfAllInSwift */,
+				D34924751F8FB4D300D24D73 /* CrakingCodeFromhackerrank */,
 				D32B2B8E1F8577AC0074AB54 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +153,10 @@
 			isa = PBXGroup;
 			children = (
 				D32B2B8D1F8577AC0074AB54 /* ILearnCpp */,
+				D32B2BA11F86258D0074AB54 /* iLearnObjC */,
+				D3B9D3491F880B1900625466 /* AlgorithmDesignManual */,
+				D34924661F8A5EFF00D24D73 /* ComboOfAllInSwift */,
+				D34924741F8FB4D300D24D73 /* CrakingCodeFromhackerrank */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,8 +165,77 @@
 			isa = PBXGroup;
 			children = (
 				D32B2B901F8577AC0074AB54 /* main.cpp */,
+				D32B2B9C1F857A650074AB54 /* Chapter1 */,
 			);
 			path = ILearnCpp;
+			sourceTree = "<group>";
+		};
+		D32B2B9C1F857A650074AB54 /* Chapter1 */ = {
+			isa = PBXGroup;
+			children = (
+				D32B2B991F857A4E0074AB54 /* Chapter1.cpp */,
+				D32B2B9A1F857A4E0074AB54 /* Chapter1.hpp */,
+			);
+			name = Chapter1;
+			sourceTree = "<group>";
+		};
+		D32B2BA21F86258D0074AB54 /* iLearnObjC */ = {
+			isa = PBXGroup;
+			children = (
+				D32B2BA31F86258D0074AB54 /* main.m */,
+				D32B2BA81F862DEB0074AB54 /* TestDose.h */,
+				D32B2BA91F862DEB0074AB54 /* TestDose.m */,
+			);
+			path = iLearnObjC;
+			sourceTree = "<group>";
+		};
+		D34924671F8A5EFF00D24D73 /* ComboOfAllInSwift */ = {
+			isa = PBXGroup;
+			children = (
+				D34924681F8A5EFF00D24D73 /* main.swift */,
+				D349246D1F8A5F1E00D24D73 /* AlgorithmsAnalysis.swift */,
+				D349246F1F8A61D500D24D73 /* AlgoritmsDesignTestCases.playground */,
+			);
+			path = ComboOfAllInSwift;
+			sourceTree = "<group>";
+		};
+		D34924751F8FB4D300D24D73 /* CrakingCodeFromhackerrank */ = {
+			isa = PBXGroup;
+			children = (
+				D34924761F8FB4D300D24D73 /* main.m */,
+			);
+			path = CrakingCodeFromhackerrank;
+			sourceTree = "<group>";
+		};
+		D349247E1F9AFDC400D24D73 /* ch2 */ = {
+			isa = PBXGroup;
+			children = (
+				D349247B1F952A1B00D24D73 /* DataStructures.h */,
+				D349247C1F952A1B00D24D73 /* DataStructures.m */,
+			);
+			name = ch2;
+			sourceTree = "<group>";
+		};
+		D34924821F9AFDF900D24D73 /* ch3 */ = {
+			isa = PBXGroup;
+			children = (
+				D349247F1F9AFDF400D24D73 /* DataStructuresActual.h */,
+				D34924801F9AFDF400D24D73 /* DataStructuresActual.mm */,
+			);
+			name = ch3;
+			sourceTree = "<group>";
+		};
+		D3B9D34A1F880B1A00625466 /* AlgorithmDesignManual */ = {
+			isa = PBXGroup;
+			children = (
+				D3B9D3501F880B3500625466 /* The Algorithm Design Manual by Steven S. Skiena.pdf */,
+				D3B9D34B1F880B1A00625466 /* main.m */,
+				D349247E1F9AFDC400D24D73 /* ch2 */,
+				D349245F1F893C9300D24D73 /* Symantecx.h */,
+				D34924601F893C9300D24D73 /* Symantecx.m */,
+				D34924821F9AFDF900D24D73 /* ch3 */,
+			);
+			path = AlgorithmDesignManual;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,16 +258,101 @@
 			productReference = D32B2B8D1F8577AC0074AB54 /* ILearnCpp */;
 			productType = "com.apple.product-type.tool";
 		};
+		D32B2BA01F86258D0074AB54 /* iLearnObjC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D32B2BA51F86258D0074AB54 /* Build configuration list for PBXNativeTarget "iLearnObjC" */;
+			buildPhases = (
+				D32B2B9D1F86258D0074AB54 /* Sources */,
+				D32B2B9E1F86258D0074AB54 /* Frameworks */,
+				D32B2B9F1F86258D0074AB54 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iLearnObjC;
+			productName = iLearnObjC;
+			productReference = D32B2BA11F86258D0074AB54 /* iLearnObjC */;
+			productType = "com.apple.product-type.tool";
+		};
+		D34924651F8A5EFF00D24D73 /* ComboOfAllInSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D349246A1F8A5EFF00D24D73 /* Build configuration list for PBXNativeTarget "ComboOfAllInSwift" */;
+			buildPhases = (
+				D34924621F8A5EFF00D24D73 /* Sources */,
+				D34924631F8A5EFF00D24D73 /* Frameworks */,
+				D34924641F8A5EFF00D24D73 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ComboOfAllInSwift;
+			productName = ComboOfAllInSwift;
+			productReference = D34924661F8A5EFF00D24D73 /* ComboOfAllInSwift */;
+			productType = "com.apple.product-type.tool";
+		};
+		D34924731F8FB4D300D24D73 /* CrakingCodeFromhackerrank */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D34924781F8FB4D300D24D73 /* Build configuration list for PBXNativeTarget "CrakingCodeFromhackerrank" */;
+			buildPhases = (
+				D34924701F8FB4D300D24D73 /* Sources */,
+				D34924711F8FB4D300D24D73 /* Frameworks */,
+				D34924721F8FB4D300D24D73 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CrakingCodeFromhackerrank;
+			productName = CrakingCodeFromhackerrank;
+			productReference = D34924741F8FB4D300D24D73 /* CrakingCodeFromhackerrank */;
+			productType = "com.apple.product-type.tool";
+		};
+		D3B9D3481F880B1900625466 /* AlgorithmDesignManual */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3B9D34D1F880B1A00625466 /* Build configuration list for PBXNativeTarget "AlgorithmDesignManual" */;
+			buildPhases = (
+				D3B9D3451F880B1900625466 /* Sources */,
+				D3B9D3461F880B1900625466 /* Frameworks */,
+				D3B9D3471F880B1900625466 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlgorithmDesignManual;
+			productName = AlgorithmDesignManual;
+			productReference = D3B9D3491F880B1900625466 /* AlgorithmDesignManual */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		D32B2B851F8577AC0074AB54 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = DCore;
 				TargetAttributes = {
 					D32B2B8C1F8577AC0074AB54 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					D32B2BA01F86258D0074AB54 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					D34924651F8A5EFF00D24D73 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					D34924731F8FB4D300D24D73 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					D3B9D3481F880B1900625466 = {
 						CreatedOnToolsVersion = 8.3.3;
 						ProvisioningStyle = Automatic;
 					};
@@ -110,6 +371,10 @@
 			projectRoot = "";
 			targets = (
 				D32B2B8C1F8577AC0074AB54 /* ILearnCpp */,
+				D32B2BA01F86258D0074AB54 /* iLearnObjC */,
+				D3B9D3481F880B1900625466 /* AlgorithmDesignManual */,
+				D34924651F8A5EFF00D24D73 /* ComboOfAllInSwift */,
+				D34924731F8FB4D300D24D73 /* CrakingCodeFromhackerrank */,
 			);
 		};
 /* End PBXProject section */
@@ -120,6 +385,44 @@
 			buildActionMask = 2147483647;
 			files = (
 				D32B2B911F8577AC0074AB54 /* main.cpp in Sources */,
+				D32B2B9B1F857A4E0074AB54 /* Chapter1.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D32B2B9D1F86258D0074AB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D32B2BAA1F862DEB0074AB54 /* TestDose.m in Sources */,
+				D32B2BA41F86258D0074AB54 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D34924621F8A5EFF00D24D73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D34924691F8A5EFF00D24D73 /* main.swift in Sources */,
+				D349246E1F8A5F1E00D24D73 /* AlgorithmsAnalysis.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D34924701F8FB4D300D24D73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D34924771F8FB4D300D24D73 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3B9D3451F880B1900625466 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D349247D1F952A1B00D24D73 /* DataStructures.m in Sources */,
+				D34924811F9AFDF400D24D73 /* DataStructuresActual.mm in Sources */,
+				D34924611F893C9300D24D73 /* Symantecx.m in Sources */,
+				D3B9D34C1F880B1A00625466 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,6 +532,65 @@
 			};
 			name = Release;
 		};
+		D32B2BA61F86258D0074AB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D32B2BA71F86258D0074AB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D349246B1F8A5EFF00D24D73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D349246C1F8A5EFF00D24D73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D34924791F8FB4D300D24D73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D349247A1F8FB4D300D24D73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D3B9D34E1F880B1A00625466 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D3B9D34F1F880B1A00625466 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -248,6 +610,43 @@
 				D32B2B961F8577AC0074AB54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D32B2BA51F86258D0074AB54 /* Build configuration list for PBXNativeTarget "iLearnObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D32B2BA61F86258D0074AB54 /* Debug */,
+				D32B2BA71F86258D0074AB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D349246A1F8A5EFF00D24D73 /* Build configuration list for PBXNativeTarget "ComboOfAllInSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D349246B1F8A5EFF00D24D73 /* Debug */,
+				D349246C1F8A5EFF00D24D73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D34924781F8FB4D300D24D73 /* Build configuration list for PBXNativeTarget "CrakingCodeFromhackerrank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D34924791F8FB4D300D24D73 /* Debug */,
+				D349247A1F8FB4D300D24D73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3B9D34D1F880B1A00625466 /* Build configuration list for PBXNativeTarget "AlgorithmDesignManual" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3B9D34E1F880B1A00625466 /* Debug */,
+				D3B9D34F1F880B1A00625466 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

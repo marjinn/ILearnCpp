@@ -4,15 +4,55 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>AlgorithmDesignManual.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>ComboOfAllInSwift.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>CrakingCodeFromhackerrank.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
 		<key>ILearnCpp.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>iLearnObjC.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>D32B2B8C1F8577AC0074AB54</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D32B2BA01F86258D0074AB54</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D34924651F8A5EFF00D24D73</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D34924731F8FB4D300D24D73</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D3B9D3481F880B1900625466</key>
 		<dict>
 			<key>primary</key>
 			<true/>
